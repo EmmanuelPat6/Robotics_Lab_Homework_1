@@ -16,7 +16,7 @@ This README file will show the instructions on how to build and run the Homework
 
 ## Getting Started
 1. Follow the guide to install ROS2 in Docker [here](https://github.com/RoboticsLab2024/ros2_docker_scripts.git)
-2. Clone this repo in your src folder inside the ros2_ws
+2. Clone this repo in your `src` folder inside the `ros2_ws`
 3. Build the packages and make them visible to your workspace
     ```shell
     colcon build
