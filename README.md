@@ -43,21 +43,21 @@ The `arm_control` package contains 1 launch file
     ```shell
     ros2 run arm_control arm_controller
     ```
-After a few seconds the robot should move and in the terminal, the various joint variables value will be displayed.
+    After a few seconds the robot should move and in the terminal, the various joint variables value will be displayed.
 
 3. To view the robot in RViz2, run in another terminal (only if `arm_gazebo.launch.py` is already launched)
     ```shell
     ros2 launch arm_description display.launch.py
     ```
-The image viewed by the camera will also be displayed automatically.
+    The image viewed by the camera will also be displayed automatically.
 
 4. To show the image captured by the camera separately, it is possible to see it through `rqt_image_view`. Run
     ```shell
     rqt
     ```
-and go in `Plugins->Visualization->Image` View and select `/videocamera`.
+    and go in `Plugins->Visualization->Image` View and select `/videocamera`.
 
-To appreciate the camera behavior, it is possible to add some objects in the `Gazebo Environment`.
+    To appreciate the camera behavior, it is possible to add some objects in the `Gazebo Environment`.
 
 5. To give other commands to the robot, it is necessary to stop the `arm_controller` node (in which there are the Publisher and the Subscriber). It is both possible to use this command
     ```shell
