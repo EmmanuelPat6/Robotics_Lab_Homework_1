@@ -64,10 +64,10 @@ To appreciate the camera behavior, it is possible to add some objects in the `Ga
     ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "data: [0.0, 0.0, 0.0, 0.0]" 
     ```
     with the desired joint positions, or run the New Publisher (not required by the project specifications) which allows to give these values directly from the terminal without the entire command but simply by entering the values separated by a space.
-        ```shell
+   ```shell
     ros2 run arm_control publisher_terminal
     ```
     In this case, to keep track of the joint position values, it is necessary to do
-        ```shell
+   ```shell
     ros2 topic echo /joint_states
     ```
