@@ -39,7 +39,7 @@ The `arm_control` package contains 1 launch file
     ```shell
     ros2 launch arm_gazebo arm_gazebo.launch.py
     ```
-2. Run Publisher and Subscriber contained in `arm_controller_node.cpp' in another terminal
+2. Run Publisher and Subscriber contained in `arm_controller_node.cpp` in another terminal
     ```shell
     ros2 run arm_control arm_controller
     ```
@@ -51,15 +51,15 @@ After a few seconds the robot should move and in the terminal, the various joint
     ```
 The image viewed by the camera will also be displayed automatically.
 
-4. To show the image captured by the camera separately, it is possible to see it through rqt_image_view. Run
+4. To show the image captured by the camera separately, it is possible to see it through `rqt_image_view`. Run
     ```shell
     rqt
     ```
-and go in Plugins->Visualization->Image View and select /videocamera.
+and go in `Plugins->Visualization->Image` View and select `/videocamera`.
 
-To appreciate the camera behavior, it is possible to add some objects in the Gazebo Environment
+To appreciate the camera behavior, it is possible to add some objects in the `Gazebo Environment`.
 
-5. To give other commands to the robot, it is necessary to stop the arm_controller node (in which there are the Publisher and the Subscriber). It is both possible to use this command
+5. To give other commands to the robot, it is necessary to stop the `arm_controller` node (in which there are the Publisher and the Subscriber). It is both possible to use this command
     ```shell
     ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "data: [0.0, 0.0, 0.0, 0.0]" 
     ```
