@@ -23,6 +23,7 @@ This README file will show the instructions on how to build and run the Homework
     ```
 3. Build the packages and make them visible to your workspace
     ```shell
+    cd ..
     colcon build
     source install/setup.bash
     ```
