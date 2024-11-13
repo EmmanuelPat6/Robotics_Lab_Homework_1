@@ -7,7 +7,7 @@ This README file will show the instructions on how to build and run the Homework
 - Visualization in RViz2
 - Spawn and Control in Gazebo
 - Camera Sensor
-- Publisher adn Subscriber Node
+- Publisher and Subscriber Node
 
 ## Available Packages in this Repository ##
 - arm_description
@@ -60,7 +60,7 @@ The `arm_control` package contains 1 launch file
     ```shell
     rqt
     ```
-    and go in `Plugins->Visualization->Image` View and select `/videocamera`.
+    and go in `Plugins->Visualization->Image View` and select `/videocamera`.
 
     To appreciate the camera behavior, it is possible to add some objects in the `Gazebo Environment`.
 
