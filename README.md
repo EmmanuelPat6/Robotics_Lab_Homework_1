@@ -1,20 +1,20 @@
 # HOMEWORK_1 PATELLARO EMMANUEL P38000239 #
-# BUILDING A ROBOT MANIPULATOR #
+# 🤖🦾 BUILDING A ROBOT MANIPULATOR 🦾🤖 #
 This README file will show the instructions on how to build and run the Homework_1 Project 
 
-## Features ##
+## 🎨💡 Features ##
 - Description of an arm manipulator
 - Visualization in RViz2
 - Spawn and Control in Gazebo
 - Camera Sensor
 - Publisher and Subscriber Node
 
-## Available Packages in this Repository ##
+## 🗂️🚀 Available Packages in this Repository ##
 - arm_description
 - arm_gazebo
 - arm_control
 
-## Getting Started
+## ⏯️🧭 Getting Started
 1. Follow the guide to install ROS2 in Docker [here](https://github.com/RoboticsLab2024/ros2_docker_scripts.git)
 2. Clone this repo in your `src` folder inside the `ros2_ws`
     ```shell
@@ -28,7 +28,7 @@ This README file will show the instructions on how to build and run the Homework
     source install/setup.bash
     ```
 
-## Usage
+## ⚙️🔨 Usage
 The `arm_description` package contains 1 launch file
 - `display.launch.py` which runs RViz2 
 
@@ -39,7 +39,7 @@ The `arm_gazebo` package contains 2 launch files
 The `arm_control` package contains 1 launch file
 - `arm_control.launch.py` which spawns the controllers
 
-### Implementation
+### 🧩🏗️ Implementation
 1. Launch `arm_gazebo.launch.py`  in a sourced terminal run
     ```shell
     ros2 launch arm_gazebo arm_gazebo.launch.py
